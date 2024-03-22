@@ -116,7 +116,7 @@ const Portfolio = () => {
                 pageName={"Portfolio"}
                 title={"Creative Portfolio"}
               />
-              <div className="portfolio_filter">
+              {/* <div className="portfolio_filter">
                 <ul className="list-none">
                   <li className="mr-[25px] inline-block">
                     <a
@@ -173,7 +173,7 @@ const Portfolio = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="list_wrapper w-full h-auto clear-both float-left">
