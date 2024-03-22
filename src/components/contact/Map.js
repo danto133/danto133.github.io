@@ -1,3 +1,4 @@
+
 const Map = () => {
   return (
     <div className="map_wrap w-full float-left clear-both h-auto mb-[50px]">
@@ -7,30 +8,10 @@ const Map = () => {
             width="100%"
             height={355}
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameBorder={0}
-            scrolling="no"
-            marginHeight={0}
-            marginWidth={0}
-          />
-          <a href="https://fmovies-online.net">fmovies</a>
-          <br />
-          <style
-            dangerouslySetInnerHTML={{
-              __html:
-                ".mapouter{position:relative;text-align:right;height:355px;width:100%;}",
-            }}
-          />
-          <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
-          <style
-            dangerouslySetInnerHTML={{
-              __html:
-                ".gmap_canvas {overflow:hidden;background:none!important;height:355px;width:100%;}",
-            }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7840.0722077274995!2d106.64992038510952!3d10.731698832739344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e41883a4f69%3A0xbfdcd6c3117f5712!2zNUUxIEjhurttIEEyLCBQaMaw4budbmcgNiwgQsOsbmggQ2jDoW5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1711098425841!5m2!1svi!2sus"
           />
         </div>
       </div>
-      {/* Get your API here https://www.embedgooglemap.net */}
     </div>
   );
 };
